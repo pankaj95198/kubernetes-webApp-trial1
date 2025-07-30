@@ -31,7 +31,7 @@ spec:
                     window.onload = function() {
                         let name = prompt('Enter your name:');
                         if(name) {
-                            document.getElementById('greet').innerText = 'Hello' + name + '!';
+                            document.getElementById('greet').innerText = 'Hello from v2' + name + '!';
                         }
                     }
                 </script>
